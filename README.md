@@ -20,6 +20,4 @@ graph TD
     M6 --> M7[Module 7: Pipeline - Training & Saving]
     M7 --> M8[Module 8: Testing - Text Generation]
 
-    style M1 fill:#f9f,stroke:#333,stroke-width:2px
-    style M7 fill:#bbf,stroke:#333,stroke-width:2px
-    style M8 fill:#bfb,stroke:#333,stroke-width:2px
+
