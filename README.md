@@ -17,6 +17,7 @@ To achieve the current results, the following configuration was used:
 * **Embedding Dimension**: 158.
 * **Attention Heads**: 4.
 * **Vocabulary Size**: ~6,275 unique words.
+* * **Total Params**: 2.2M
 
 ## 🚀 Project Pipeline
 
