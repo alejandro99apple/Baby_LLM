@@ -1,4 +1,4 @@
-# Baby-LLM: A Character/Subword Transformer from Scratch
+# Baby-LLM: A Tiny Transformer from Scratch
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange)
