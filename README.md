@@ -2,9 +2,21 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
-This project is a basic implementation of a **Large Language Model (LLM)** built from scratch using TensorFlow and Keras. It implements a Decoder-only Transformer architecture designed to learn and generate text based on specific linguistic patterns.
+## 📖 Project Overview
+
+This project is a basic implementation of a **Large Language Model (LLM)** built from scratch using TensorFlow and Keras. It implements a **Decoder-only Transformer** architecture designed to learn and generate text by identifying complex linguistic patterns.
+
+### 📊 Training Dataset
+The model was trained on a custom dataset consisting of **speeches by Fidel Castro**, totaling approximately **300,000 characters**. This specific corpus allows the model to capture a unique rhetorical style, characterized by formal political structures and historical Spanish vocabulary.
+
+### ⚙️ Model Hyperparameters
+To achieve the current results, the following configuration was used:
+* **Tokenization**: Word-level (Standardized and white-space split).
+* **Block Size (Context Window)**: 64 tokens.
+* **Embedding Dimension**: 158.
+* **Attention Heads**: 4.
+* **Vocabulary Size**: ~6,275 unique words.
 
 ## 🚀 Project Pipeline
 
